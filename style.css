@@ -1,0 +1,104 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box; list-style: none; font-family: cursive;
+}
+
+.image {
+    position: absolute;
+    width: 30vw;
+    height: 70vh;
+    background-image: url();
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    top: 15%;
+}
+
+.title {
+    margin-top: 30px; margin-bottom: -95px;
+    font-size: 50px; color: #1a2e35; text-align: center;
+}
+
+.title span {
+    color: #bc343e;
+}
+
+.main-container {
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inner-container {
+    background: aliceblue;
+    padding: 0 3rem;
+    box-shadow: 10px 10px 10px gray, inset 10px 10px 20px gainsboro;
+    border-radius: 20px;
+}
+
+h1 {
+    margin: 2rem 0;
+    color: #bc343e;
+}
+
+ul li {
+    padding: 0.7rem;
+    font-size: 20px;
+}
+
+#submit, .btn {
+    display: block;
+    margin: auto;
+    padding: 0.3rem 1.8rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    background: #bc343e;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+#submit:hover {
+    background: #1a2e35;
+    color: #fff;
+}
+
+#submit, label, input {
+    cursor: pointer;
+}
+
+#showScrore {
+    background: #ececec;
+    padding: 2em;
+    margin: 2em;
+    text-align: center;
+    color: #000;
+}
+
+#showScore .btn {
+    background: #1a2e35;
+    padding: 5px;
+    margin: 20px auto;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#showScore h3 {
+    text-align: center;
+}
+
+.score {
+    display: none;
+}
+
+#showScore .btn:hover {
+    background: #ececec;
+    border: 1px solid #1a2e35;
+    color: #1a2e35;
+}
+
